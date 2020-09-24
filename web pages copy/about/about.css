@@ -52,6 +52,9 @@ table {
   font-size: 62.5%;
 }
 
+body {
+	background: #00A3DD;
+}
 
 header.header {
 	display: flex;
@@ -61,7 +64,7 @@ header.header {
 	padding: 2rem;
 }
 
-h1, h2, p {
+h1, h2, p, nav{
 	font-family: sans-serif;
 	text-align: center;
 }
@@ -71,6 +74,7 @@ button {
 	font-size: 3rem;
 	margin: 2%;
 	padding: 1% 2%;
+	border-radius: 10%
 }
 
 h1 {
@@ -97,6 +101,14 @@ p {
 	margin: 5%;
 	font-size: 1.5rem;
 	width: 100%;
+}
+
+nav a {
+	margin: 5%;
+	font-size: 1.5rem;
+	width: 100%;
+	color: #000000;
+	padding-left: 10%;
 }
 
 .duties {
@@ -175,13 +187,10 @@ footer {
 		margin-top: 5%;
 	 }
 
-	img.image {
-		margin-top: 5%;
-	}
-
 	h2 {
 		margin-top: 5%;
 	}
+
 }
 
 @media(max-width: 500px){
@@ -198,5 +207,8 @@ footer {
 		font-size: 1rem;
 	}
 
+	nav a {
+		font-size: 1rem;
+	}
 
 }
