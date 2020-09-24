@@ -60,7 +60,7 @@ header.header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: #00A3DD;
+	background-image: linear-gradient(#00A3DD, #00A3DD ,#FCD116);
 	padding: 2rem;
 }
 
@@ -99,7 +99,6 @@ h2 {
 hr {
 	border: solid black 1px;
 	margin: 3%;
-	/* text-align: center; */
 	margin-left: 10%;
 	margin-right: 0;
 }
@@ -142,7 +141,6 @@ section {
 #secOne, #secThree, #secFive {
 	background: #1EB53A;
 	border-top: #000000 solid 5px;
-	/* align-items: center; */
 	justify-content: space-around;
 }
 
@@ -150,12 +148,7 @@ section {
 	background: #FCD116;
 	border-top: #000000 solid 5px;
 	flex-direction: row-reverse;
-	/* align-items: center; */
 	justify-content: space-around;
-}
-
-.info {
-	/* text-align: center; */
 }
 
 footer {

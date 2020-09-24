@@ -85,7 +85,7 @@ header.header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: #00A3DD;
+	background-image: linear-gradient(#00A3DD, #00A3DD ,#FCD116);
 	padding: 2rem;
 	border-bottom: #000000 solid 5px;
 }
@@ -135,7 +135,6 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
 	background: #00A3DD;
 	padding: 2rem;
 	border-top: #000000 solid 5px;
