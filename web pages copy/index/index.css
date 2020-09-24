@@ -75,6 +75,11 @@ button {
 	width: 200px;
 }
 
+button a {
+	color: #000000;
+	text-decoration: none;
+}
+
 header.header {
 	display: flex;
 	flex-direction: column;
