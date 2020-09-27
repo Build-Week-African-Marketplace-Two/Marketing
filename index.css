@@ -88,6 +88,7 @@ header.header {
 	background-image: linear-gradient(#00A3DD, #00A3DD ,#FCD116);
 	padding: 2rem;
 	border-bottom: #000000 solid 5px;
+	margin-bottom: 3%;
 }
 
 h2, h3 {
@@ -106,7 +107,6 @@ hr {
 	border: solid black 1px;
 	margin: 3%;
 	width: 50%;
-	color: #000000;
 }
 
 /* section border */
@@ -118,7 +118,7 @@ hr#border {
 }
 
 .image {
-	padding: 5%;
+	padding: 2% 5% 5%;
 }
 
 section.sectionOne, .sectionTwo{
